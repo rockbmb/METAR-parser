@@ -14,7 +14,7 @@ type ParserBuilder() =
    member p.Zero() = Parser (fun chars -> [])
    member p.Combine (x,y) = x ++ y*)
 
-#I "C:/Users/Asus/Documents/Visual Studio 2015/Projects/ConsoleApplication1/packages/FParsec.1.0.2/lib/net40-client"
+#I "../packages/FParsec.1.0.2/lib/net40-client"
 #r "FParsec"
 #r "FParsecCS"
 
